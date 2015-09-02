@@ -1,4 +1,4 @@
-<!-- Damier avec choix au démarrage de nbColonnes / nbLignes / couleur de départ -->
+<?phprequire_once('lib/Twig/Autoloader.php');Twig_Autoloader::register();$loader = new Twig_Loader_Filesystem('tmp');$twig = new Twig_Environment($loader, array(    'cache' => false));echo $twig->render('index.twig', array(    'moteur_name' => 'Twig'));?><!-- Damier avec choix au démarrage de nbColonnes / nbLignes / couleur de départ -->
 <!doctype html>
 <html lang="fr">
 <head>
