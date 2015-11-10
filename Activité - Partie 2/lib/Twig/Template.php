@@ -11,7 +11,7 @@
  */
 
 /**
- * Default base class for compiled templates.
+ * Core base class for compiled templates.
  *
  * @author Fabien Potencier <fabien@symfony.com>
  */

@@ -11,7 +11,7 @@
  */
 
 /**
- * Default parser implementation.
+ * Core parser implementation.
  *
  * @author Fabien Potencier <fabien@symfony.com>
  */
